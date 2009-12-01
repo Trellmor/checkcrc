@@ -1,0 +1,18 @@
+checkcrc is a programm to compare crc32 checksum. Files coming from irc
+bots will often be named like "somename_[DEADBEEF].avi", where DEADBEEF
+is the crc32 checksum. checkcrc will try to find checksum strings in
+filenames and will compare them to the files checksum.
+
+checkcrc can also be used to create checksums of files by using the -c
+swtich.
+
+Usage: checkcrc [-cvh] [file ...]
+ 
+    -c  Only calculate checksums, don't try to find a checksum string to compare
+    -v  Display version number
+    -g  Display this help
+
+	file can by any number of files you want to check.
+
+	
+For instructions how to compile and install checkcrc see INSTALL.
