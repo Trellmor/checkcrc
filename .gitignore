@@ -1,0 +1,18 @@
+# Binary
+/checkcrc
+
+# Binary files
+*.o
+
+# Tmp files
+*~
+Makefile
+
+config.h
+
+.deps/
+autom4te.cache/
+*.log
+*.status
+stamp-h1
+
